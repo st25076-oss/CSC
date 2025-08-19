@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up | OSC's Chess Club</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Verdana, sans-serif;
+      color: #666262;
+      margin: 0;
+    }
+    h1 {
+      color: #ffffff;
+    }
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+      color: #333;
+    }
+    input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      background: #f9f9f9;
+    }
+    .menu {
+      float: left;
+      width: 20%;
+      text-align: center;
+      background-color: white;
+      padding-top: 20px;
+    }
+    .menu a {
+      background-color: rgb(155, 177, 11);
+      padding: 10px;
+      margin: 10px 0;
+      display: block;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .menu a:hover {
+      background-color: #a0b000;
+    }
+    .main {
+      float: left;
+      width: 60%;
+      padding: 20px;
+      text-align: center;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: auto;
+      text-align: left;
+    }
+    .right {
+      background-color: #e5e5e5;
+      float: left;
+      width: 20%;
+      padding: 15px;
+      margin-top: 7px;
+      text-align: center;
+    }
+    @media only screen and (max-width: 620px) {
+      .menu, .main, .right {
+        width: 100%;
+        float: none;
+      }
+    }
+    footer {
+      background-color: #e5e5e5;
+      text-align: center;
+      padding: 10px;
+      margin-top: 7px;
+      font-size: 14px;
+    }
+    .submit-btn {
+      background-color: rgb(29, 152, 48);
+      color: white;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 100%;
+    }
+    .submit-btn:hover {
+      background-color: rgb(22, 120, 38);
+    }
+  </style>
+</head>
+
+<body>
+  <div style="background-color:orange;padding:15px;text-align:center;">
+    <h1>OSC'S Chess Club</h1>
+    <p>
+  </div>
+
+  <div style="overflow:auto">
+    <nav class="menu">
+      <a href="signup.html">Sign Up</a>
+      <a href="introduction.html">Introduction</a>
+      <a href="home.html">Home</a>
+    </nav>
+
+    <section class="main">
+      <h2>Sign Up Form</h2>
+      <div class="form-container">
+        <form action="introduction.html">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="yourname@example.com" required>
+
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" placeholder="Create a strong password" required>
+
+          <input type="submit" value="Sign Up" class="submit-btn">
+        </form>
+      </div>
+    </section>
+
+    <aside class="right">
+      <h2>About Chess</h2>
+      <p>Chess is a game played by two people on a board with 64 squares. Each player has 16 pieces, and the goal is to trap the other player’s king so it can’t move. The game started long ago in India, and over time it spread to other parts of the world, changing a little along the way. Now, it’s played everywhere and is known for helping people think and plan better.</p>
+    </aside>
+  </div>
+
+  <footer>
+    &copy; 2025 by Darian Nguyen | OSC Chess Club
+  </footer>
+</body>
+</html>
