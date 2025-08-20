@@ -48,6 +48,10 @@
       text-align: center;
       color: #333;
     }
+    .main h3 {
+      text-align: left;
+      color: #333;
+    }
     .main img {
       display: block;
       margin: 20px auto;
@@ -95,8 +99,91 @@
 
     <section class="main">
       <h2>Introduction</h2>
-      <p>Chess is more than a game — it's a battle of minds. At OSC's Chess Club, we welcome players of all levels to learn, compete, and grow. Whether you're just starting or aiming for mastery, our club is the perfect place to sharpen your skills and connect with fellow enthusiasts.</p>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Chess_board_and_pieces.jpg/800px-Chess_board_and_pieces.jpg" alt="Chess Board and Pieces">
+      <p>Chess is a board game for two players. It is an abstract strategy game that involves no hidden information and no elements of chance. It is played on a square board consisting of 64 squares arranged in an 8×8 grid. The players, referred to as "White" and "Black", each control sixteen pieces: one king, one queen, two rooks, two bishops, two knights, and eight pawns, with each type of piece having a different pattern of movement. An enemy piece may be captured (removed from the board) by moving one's own piece onto the square it occupies. The object of the game is to "checkmate" (threaten with inescapable capture) the enemy king. There are also several ways a game can end in a draw.</p>
+      <img src="https://th.bing.com/th/id/OIP.ahbd7VWdkk-Ltp6w7Ho1GQHaFl?w=246&h=186&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt="Chess Board and Pieces">
+      
+    <h3>Explore Chess Pieces</h3>
+    <style>
+      .chess-piece-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.chess-piece-list li {
+  background-color: #f9f9f9;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  width: 140px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.chess-piece-list li:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.chess-piece-list img {
+  width: 100px;
+  height: auto;
+  margin-top: 10px;
+}
+
+.chess-piece-list p {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #333;
+}
+
+.chess-piece-list a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 10px;
+}
+    </style>
+<ul style="list-style-type: none; padding: 0;" ul class="chess-piece-list">
+  <li>
+    <a href="king.html" target="_blank">
+      <img src="https://th.bing.com/th/id/R.f775dbf69a0518652a6cefdee6529d3a?rik=9ATL7oBLLyjhiA&pid=ImgRaw&r=0" alt="King" style="height:100px;">
+      <p>King</p>
+    </a>
+  </li>
+  <li>
+    <a href="queen.html" target="_blank">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.ckKlSjK47lNCrlrTI8LSiQHaG_?rs=1&pid=ImgDetMain&o=7&rm=3" alt="Queen" style="height:100px;">
+      <p>Queen</p>
+    </a>
+  </li>
+  <li>
+    <a href="rook.html" target="_blank">
+      <img src="https://th.bing.com/th/id/OIP.Dqp3r8DkZMd1nuEJTT88DAHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Rook" style="height:100px;">
+      <p>Rook</p>
+    </a>
+  </li>
+  <li>
+    <a href="bishop.html" target="_blank">
+      <img src="https://img.favpng.com/13/21/2/chess-piece-bishop-portable-network-graphics-scalable-vector-graphics-png-favpng-1FAKTZZZeqmCyxSRYTFAqkEuu_t.jpg" alt="Bishop" style="height:100px;">
+      <p>Bishop</p>
+    </a>
+  </li>
+  <li>
+    <a href="knight.html" target="_blank">
+      <img src="https://ts2.mm.bing.net/th?id=OIP.sCmtHjGdHbl2RY6sPcofaQHaHa&pid=15.1" alt="Knight" style="height:100px;">
+      <p>Knight</p>
+    </a>
+  </li>
+  <li>
+    <a href="pawn.html" target="_blank">
+      <img src="https://cdn1.iconfinder.com/data/icons/chess-20/68/pawn_white-1024.png" alt="Pawn" style="height:100px;">
+      <p>Pawn</p>
+    </a>
+  </li>
+</ul>
     </section>
 
     <aside class="right">
